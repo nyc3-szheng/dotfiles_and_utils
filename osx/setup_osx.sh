@@ -29,10 +29,6 @@ brew install git-extras
 # other
 brew install --cask rectangle
 brew install --cask spotify
-brew install --cask tomighty
-
-# install oh my zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install dev tools
 brew install node
