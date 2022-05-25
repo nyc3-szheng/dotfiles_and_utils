@@ -40,6 +40,8 @@ mas install 1470499037 # https://apps.apple.com/us/app/tailscale/id1470499037
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# install fzf 
+$(brew --prefix)/opt/fzf/install
 # install dev tools
 brew install python@3.9
 brew install node
