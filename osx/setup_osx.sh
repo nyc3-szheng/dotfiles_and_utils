@@ -21,7 +21,6 @@ mas install 1295203466 # Windows RDP OSX https://apps.apple.com/us/app/microsoft
 # essentials / system libraries / tools
 brew install coreutils
 brew install --cask google-chrome
-# brew install java # if you need the JDK 
 brew install wget
 
 # git tools 
@@ -40,6 +39,10 @@ brew install --cask rectangle
 brew install python@3.9 poetry
 # brew install node
 brew install terraform terraform-docs tflint warrensbox/tap/tfswitch 
+## java
+brew install --cask temurin
+brew tap homebrew/cask-versions
+brew install --cask temurin8
 
 # container tools  
 brew install lima # combo tool to do containerization on MACOS with nerdctl
